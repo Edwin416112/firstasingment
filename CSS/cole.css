@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #080f11;
+    background-color: rgb(173, 235, 240);
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #7badee;
+    color: white;
+    padding: 15px 30px;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav li {
+    cursor: pointer;
+}
+
+
+/* Hero */
+.hero {
+    background: #cce6f5;
+    background-size: cover;
+    color: rgb(221, 49, 49);
+    text-align: center;
+    padding: 100px 20px;
+}
+
+/* Search */
+.search {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background: #f8dbdb;
+}
+
+.search input {
+    padding: 10px;
+    width: 300px;
+}
+
+.search button {
+    padding: 10px;
+    background: #0a4da2;
+    color: white;
+    border: none;
+}
+
+/* About */
+.about {
+    padding: 40px;
+    text-align: center;
+}
+
